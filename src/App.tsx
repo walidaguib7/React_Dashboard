@@ -25,15 +25,15 @@ function App() {
             <TopBar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/Team" element={<Team />} />
-              <Route path="/" element={<Invoices />} />
-              <Route path="/" element={<Faq />} />
-              <Route path="/" element={<Contacts />} />
-              <Route path="/" element={<Form />} />
-              <Route path="/" element={<Pie />} />
-              <Route path="/" element={<Bar />} />
-              <Route path="/" element={<Line />} />
-              <Route path="/" element={<Geo />} />
+              <Route path="/team" element={<Team />} />
+              <Route path="/invoices" element={<Invoices />} />
+              <Route path="/faq" element={<Faq />} />
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/form" element={<Form />} />
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/line" element={<Line />} />
+              <Route path="/geo" element={<Geo />} />
             </Routes>
           </div>
         </div>
