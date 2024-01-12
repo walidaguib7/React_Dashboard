@@ -12,6 +12,7 @@ import Invoices from "./pages/invoices";
 import Line from "./pages/line";
 import Geo from "./pages/Geo";
 import { Route, Routes } from "react-router-dom";
+import NavBar from "./pages/global/NavBar";
 
 function App() {
   const { theme, toggleColorMode } = useMode();
@@ -21,6 +22,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="App">
+          <NavBar />
           <div className="content">
             <TopBar />
             <Routes>
